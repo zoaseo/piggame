@@ -1,0 +1,91 @@
+canvas {
+    background: url(./img/back.jpg) center center/cover no-repeat;
+    /* background-color: coral; */
+    position: absolute;
+    left: 100px;
+}
+#pigbox {
+    position: absolute;
+    top: 200px;
+    left: 700px;
+    width: 200px;
+    height: 200px;
+    /* background-color: tomato; */
+    background: url(./img/back.jpg) center center/cover no-repeat;
+}
+#pigbox img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100px;
+    height: 100px;
+    transition: 0.5s;
+}
+#notice {
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    background: blue;
+    left: 700px;
+    top: 100px;
+    color: #fff;
+    text-align: center;
+    line-height: 100px;
+    font-size: 30px;
+}
+#restart {
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    background: pink;
+    left: 700px;
+    top: 400px;
+    color: #fff;
+    text-align: center;
+    line-height: 100px;
+    font-size: 30px;
+    display: none;
+}
+#start {
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    /* background: black; */
+    left: 300px;
+    top: 400px;
+    color: #fff;
+    text-align: center;
+    line-height: 100px;
+    font-size: 50px;
+    cursor: pointer;
+    /* display: none; */
+}
+#nextlevel {
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    /* background: black; */
+    left: 300px;
+    top: 400px;
+    color: #fff;
+    text-align: center;
+    line-height: 100px;
+    font-size: 50px;
+    cursor: pointer;
+    display: none;
+}
+#level2 {
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    /* background: black; */
+    left: 300px;
+    top: 400px;
+    color: #fff;
+    text-align: center;
+    line-height: 100px;
+    font-size: 50px;
+    cursor: pointer;
+    display: none;
+}
